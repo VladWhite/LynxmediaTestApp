@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="testapp.belenkov.lynxmedia.ru.lynxmediatestapp.ItemDetails">
+
+    <TextView
+        android:id="@+id/detailsTeam1"
+        style="@style/ItemTextParent" />
+
+    <TextView
+        android:id="@+id/detailsTeam2"
+        style="@style/ItemTextParent" />
+
+    <TextView
+        android:id="@+id/detailsTime"
+        style="@style/ItemTextParent" />
+
+    <TextView
+        android:id="@+id/detailsTournament"
+        style="@style/ItemTextParent" />
+
+    <TextView
+        android:id="@+id/detailsArticleText"
+        style="@style/ItemTextParent" />
+
+
+    <ScrollView
+        android:id="@+id/detailsPrediction"
+        style="@style/ItemTextParent" />
+
+</LinearLayout>

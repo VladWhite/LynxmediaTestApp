@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D6D7D7"
+    android:orientation="vertical"
+    tools:context="testapp.belenkov.lynxmedia.ru.lynxmediatestapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/eventsItemsView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="#D6D7D7"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageButton
+            android:transitionName="cybersport"
+            android:id="@+id/cyber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_cs" />
+
+        <ImageButton
+            android:transitionName="football"
+            android:id="@+id/football"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_football" />
+
+        <ImageButton
+            android:transitionName="hockey"
+            android:id="@+id/hockey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_hockey" />
+        <ImageButton
+            android:transitionName="basketball"
+            android:id="@+id/basket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_basketball" />
+        <ImageButton
+            android:transitionName="volleyball"
+            android:id="@+id/voley"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_voley" />
+        <ImageButton
+            android:transitionName="tennis"
+            android:id="@+id/tennis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_tennis" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LynxmediaTestApp</string>
+    <string name="team1">Команда 1:</string>
+    <string name="team2">Команда 2:</string>
+    <string name="time">Тайм:</string>
+    <string name="tournament">Турнир:</string>
+    <string name="articleText">Описание:</string>
+    <string name="prediction">Прогноз:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
